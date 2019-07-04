@@ -28,7 +28,21 @@ namespace SoyerApp.Apresentação
         {
             CadastroPessoa cadPess = new CadastroPessoa();
 
-                cadPess.Show();
+            cadPess.Show();
+        }
+
+        private void btnVerEstq_Click(object sender, EventArgs e)
+        {
+            Estoque estoque = new Estoque();
+
+            estoque.Show();
+        }
+
+        private void btnControle_Click(object sender, EventArgs e)
+        {
+            Funcionarios funcionarios = new Funcionarios();
+
+            funcionarios.Show();
         }
     }
 }
