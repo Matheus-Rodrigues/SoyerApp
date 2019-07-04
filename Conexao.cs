@@ -18,7 +18,7 @@ namespace SoyerApp.DAO
             try
             {
                 conexao = new MySqlConnection(conecta);
-                conexao.Open();
+                conexao.Open();;
             }
             catch(Exception erro)
             {
