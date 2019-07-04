@@ -12,14 +12,15 @@ using SoyerApp.BLL;
 
 namespace SoyerApp
 {
-    public partial class Form1 : Form
+    public partial class CadastroPessoa : Form
     {
-        public Form1()
+        public CadastroPessoa()
         {
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.FixedDialog;
 
             Listar();
+            
         }
 
         //método para limpar os campos preenchidos
